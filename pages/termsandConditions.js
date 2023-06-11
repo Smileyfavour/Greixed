@@ -1,5 +1,4 @@
 
-import { useState,useEffect } from 'react';
 import Head from 'next/head';
 
 
@@ -19,7 +18,7 @@ export default function termsAndConditions() {
         <link rel="icon" href="/greixed logo (4).png"/>
     </Head>
     <main className={styles.container}>
-     
+     meeeettt meet
   
     </main>
     </>

@@ -1,5 +1,4 @@
 import Image from 'next/image'
-import readMore from './readMore';
 import { useState,useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
@@ -43,7 +42,7 @@ export default function Home() {
       <div className={styles.body}>
             <ul className={styles.header}>
                 <h1 className='lg:mt-20'>Studying abroad is made easy</h1>
-                <p className={styles.text}>With much teaching from our tutors,
+                <p className={styles.type}>With much teaching from our tutors,
                 IELTS TOFEFL and many more are much easier to pass.
                 From the comfort of your home, we teach you various topics needed 
                 for the exams you are partaking in and can help you
@@ -55,11 +54,11 @@ export default function Home() {
                 we have lost count of many who performed excellently in WAEC, NECO and JAMB.
                 Below are some of our students who passed the exams in flying colours.</p>
                 <h3 className={styles.topics}>How to Apply</h3>
-                <p className={styles.text}>Make a determination in your mind on what exam course you would love to be taught about.
+                <p className={styles.type}>Make a determination in your mind on what exam course you would love to be taught about.
                 You can scale through the related exams <Link href='/courses'><u>courses we teach</u></Link> ,
                 click the apply button there. Also, you can click on the button below and you will be redirected to our Whatsapp
                 account where you will be referred to one of our tutors who will give you more details and payments  of the services we render.</p>
-                <p  className={styles.text}>To apply for the obtainable valid schorlaship application, follow this link <Link href='/readMore'><u>schorlaships</u></Link> and 
+                <p  className={styles.type}>To apply for the obtainable valid schorlaship application, follow this link <Link href='/readMore'><u>schorlaships</u></Link> and 
                   click the apply button below.
                   You will also be redirected to our Whatsapp account where you can reach out to our agents, discuss
                 and guide you through every procedure to be taken for your desired schorlaship</p>
@@ -81,10 +80,13 @@ export default function Home() {
    image:'',
    button:' h-[40px] w-[170px] flex flex-col text border bg-blue-800 lg: px-3 mt-3 rounded-lg text-center text-white',
    body:'flex flex-col justify-center  lg:text-right  sm:text-center mt-96 text-bold text-6xl text-yellow-500 ',
-   text:'text-2xl  text-black mt-5 lg:text-right sm:text-center',
+   type:'text-2xl  text-black mt-5 lg:text-right sm:text-center',
    texts:'text-2xl leading-relaxed text-black mt-5 lg:text-justify sm:text-center',
    topic:' mt-24 lg:text-justify sm:text-center',
    topics:' mt-24 lg:text-right sm:text-center',
    Apply:' text-2xl mt-24 gap-3 flex justify-center ',
    link:'h-[40px] w-[400px] mt-5 bg-blue-800 hover:bg-yellow-500 lg:px-3 rounded-lg text-center text-2xl text-white',
   }
+
+
+
