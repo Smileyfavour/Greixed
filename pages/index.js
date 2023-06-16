@@ -1,17 +1,11 @@
 import Image from 'next/image'
-import { useState,useEffect } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
 
 
 export default function Home() {
-  const [screenHeight,setScreenHeight] = useState(0);
-
-
-  useEffect(()=>{
-    setScreenHeight(window.innerHeight - 60)
-  },[]);
+ 
  
 
  
@@ -25,7 +19,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/greixed logo (4).png"/>
     </Head>
-    <main className={styles.container} style={{height:`${screenHeight}px`}}>
+    <main className={styles.container}>
      <div className={styles.image}>
      <div className='flex justify-center items-center gap-5'>
         
@@ -56,8 +50,8 @@ export default function Home() {
                 and guide you through every procedure to be taken for your desired schorlaship</p>
                 <p className={styles.Apply}>To apply for exams tutoring ,click the link button below </p>
           </ul>
-      <div className={styles.link}>
-          <Link className=''  href='https://wa.me/+2348147323426'>Apply Now</Link>
+      <div className={styles.linkButton}>
+          <Link className={styles.link}  href='https://wa.me/+2348147323426'>Apply Now</Link>
       </div>
         </div>
   
@@ -68,7 +62,7 @@ export default function Home() {
   
 
   const styles = {
-   container:'',
+   container:'lg:px-0 sm:px-5',
    image:'',
    button:' h-[40px] w-[170px] flex flex-col text border bg-blue-800 lg: px-3 mt-3 rounded-lg text-center text-white',
    body:'flex flex-col justify-center  lg:text-right  sm:text-center mt-96 text-bold text-6xl text-yellow-500 ',
@@ -77,6 +71,7 @@ export default function Home() {
    topic:' mt-24 lg:text-justify sm:text-center',
    topics:' mt-24 lg:text-right sm:text-center',
    Apply:' text-2xl mt-24 gap-3 flex justify-center ',
+   linkButton:'flex justify-center py-5',
    link:'h-[40px] w-[400px] mt-5 bg-blue-800 hover:bg-yellow-500 lg:px-3 rounded-lg text-center text-2xl text-white',
   }
 

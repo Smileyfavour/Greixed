@@ -23,7 +23,7 @@ export default function MainNav() {
                      <Link href='/' className={mainStyles.brandName}>Greixed Consult</Link>
                 </li>
 
-                <li className={mainStyles.responsiveMenuItems} >
+                <li>
                     <Image width={30} height={38} src='/greixed logo (4).png' alt='greixed consult'/>
                 </li>
 
@@ -113,7 +113,7 @@ const mainStyles= {
     mobileMenuClose:'text-blue-500 w-[38px] h-[38px]  absolute top-2 right-2 z-10',
     iconText:' lg:text-blue-300 text-blue-300 hover:text-white ',
     mobileMenuItems:'flex flex-col  gap-12 pt-[60px] pr-4 pl-2',
-    responsiveMenuItems:'hidden sm:block text-blue-500 hover:text-blue-800  ',
+    responsiveMenuItems:'hidden sm:block lg:none text-blue-500 hover:text-blue-800  ',
     menu:'block md:hidden w-[38px] h-[38px] text-blue-500',
     mobileNav:'h-screen w-full bg-/100 absolute top-0 left-0',
     mobileMenuText:'text-[20px] font-reading text-gray-400',

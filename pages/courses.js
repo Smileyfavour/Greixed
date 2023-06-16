@@ -1,6 +1,5 @@
 import Head from "next/head";
 import Image from 'next/image';
-import { useState,useEffect } from 'react';
 import * as React from 'react';
 import Card from '@mui/material/Card';
 import CardActions from '@mui/material/CardActions';
@@ -15,12 +14,7 @@ import Typography from '@mui/material/Typography';
 
 
 export default function Home() {
-    const [screenHeight,setScreenHeight] = useState(0);
-  
-  
-    useEffect(()=>{
-      setScreenHeight(window.innerHeight - 40)
-    },[]);
+   
    
   
    
@@ -34,7 +28,7 @@ export default function Home() {
           <meta name="viewport" content="width=device-width, initial-scale=1" />
           <link rel="icon" href="/greixed logo (4).png"/>
       </Head>
-      <main style={{height:`${screenHeight}px`}}>
+      <main className={styles.container}>
         <h1 className="text-2xl font-bold text-justify mt-5">
           We teach courses related to the bodies Below;
         </h1>
@@ -139,6 +133,7 @@ export default function Home() {
     )}
 
     const styles={
+      container:'px-3',
       templates:'mt-20 flex flex-wrap gap-4 lg:flex-row sm:flex-wrap  order-2',
       Text:'text-6xl mt-5 text-left',
       explain:'text-2xl px-3',

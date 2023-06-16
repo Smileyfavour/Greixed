@@ -85,8 +85,8 @@ export default function readMore() {
               </p>
               <p className={styles.texts}>To apply for the obtainable valid schorlaship application, click the link Below</p>
         </div>
-        <div className={styles.link}>
-          <Link className=''  href='https://wa.me/+2348147323426'>Apply Now</Link>
+        <div className={styles.linkButton}>
+          <Link className={styles.link}  href='https://wa.me/+2348147323426'>Apply Now</Link>
       </div>
         </div>
     </main>
@@ -95,10 +95,11 @@ export default function readMore() {
   )}
 
   const styles ={
-    container:'h-screen',
+    container:'lg:px-0 sm:px-5',
     heading:'text-3xl text-blue-600 font-bold mt-5 px-3 flex flex-row gap-3',
     text:'mt-5 px-3 text-2xl leading-relaxed text-black justify-end',
     texts:'mt-10 text-yellow-500  text-2xl text-black text-center',
+    linkButton:'flex justify-center py-5',
     header:'mt-5 text-yellow-400',
     link:'h-[40px] w-[400px] mt-5 bg-blue-800 hover:bg-yellow-500 lg:px-3 rounded-lg text-center text-2xl text-white',
   }
