@@ -23,7 +23,7 @@ export default function Footer() {
                     <Link href='/www.instagram.com/greix.ed_consult'><BsInstagram className={footerStyles.icon}/></Link>
                 </li>
                 <li>
-                    <Link href='#'><BsWhatsapp className={footerStyles.icon}/></Link>
+                    <Link href='https://wa.me/+2348147323426'><BsWhatsapp className={footerStyles.icon}/></Link>
                 </li>
             </ul>
 
@@ -31,9 +31,7 @@ export default function Footer() {
                 <li>
                     <Link href='/termsandConditions' className={footerStyles.legalText}>Terms and conditions</Link>
                 </li>
-                <li>
-                    <Link href='/contact-us' className={footerStyles.legalText}>Contact Us</Link>
-                </li>
+            
                 <li>
                     <Link href='/about-us' className={footerStyles.legalText}>About Us</Link>
                 </li>

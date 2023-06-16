@@ -65,7 +65,7 @@ export default function Home() {
                 <p className={styles.Apply}>To apply for exams tutoring ,click the link button below </p>
           </ul>
       <div className={styles.link}>
-          <Link className=''  href='#'>Apply Now</Link>
+          <Link className=''  href='https://wa.me/+2348147323426'>Apply Now</Link>
       </div>
         </div>
   
