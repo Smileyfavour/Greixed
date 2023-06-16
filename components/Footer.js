@@ -17,13 +17,13 @@ export default function Footer() {
             <ul className={footerStyles.socialBlock}>
                 <p>Follow or contact us on</p>
                 <li>
-                    <Link href='#'><ImFacebook2 className={footerStyles.icon}/></Link>
+                    <Link href='https://www.facebook.com/profile.php?id=100089064499317'><ImFacebook2 className={footerStyles.icon}/></Link>
                 </li>
                 <li>
-                    <Link href='/www.instagram.com/greix.ed_consult'><BsInstagram className={footerStyles.icon}/></Link>
+                    <Link href='#'><BsInstagram className={footerStyles.icon}/></Link>
                 </li>
                 <li>
-                    <Link href='https://wa.me/+2348147323426'><BsWhatsapp className={footerStyles.icon}/></Link>
+                    <Link href='https://wa.me/+2349121366885'><BsWhatsapp className={footerStyles.icon}/></Link>
                 </li>
             </ul>
 
