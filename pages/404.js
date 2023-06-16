@@ -11,7 +11,7 @@ export default function PageNotFound() {
 
 
     useEffect(()=>{
-        setScreenHeight(window.innerHeight - 40)
+        setScreenHeight(window.innerHeight - 60)
     },[])
 
 
