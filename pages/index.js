@@ -62,7 +62,7 @@ export default function Home() {
   
 
   const styles = {
-   container:'lg:px-0 sm:px-5',
+   container:'lg:px-0 sm:px-5 text-center',
    image:'',
    button:' h-[40px] w-[170px] flex flex-col text border bg-blue-800 lg: px-3 mt-3 rounded-lg text-center text-white',
    body:'flex flex-col justify-center  lg:text-right  sm:text-center mt-96 text-bold text-6xl text-yellow-500 ',
