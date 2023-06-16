@@ -107,7 +107,7 @@ export default function MainNav() {
 const mainStyles= {
     navBar:'h-[80px] flex flex-row justify-between items-center px-3 bg-[#42e9f5] border border-gray-200 shadow-md',
     navSection:'flex flex-row justify-between space-x-5 ',
-    brandName:'font-reading  text-4xl text-blue-700  font-bold',
+    brandName:'font-reading  text-4xl text-blue-700  font-bold sm:hidden',
     halfScreenMenuBlock:'h-screen min-w-[300px] max-w-[420px] flex flex-col bg-blue-950 absolute right-0 top-0 ',
     mobileMenuItem:'flex flex-row justify-center ',
     mobileMenuClose:'text-blue-500 w-[38px] h-[38px]  absolute top-2 right-2 z-10',
