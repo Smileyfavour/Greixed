@@ -19,13 +19,14 @@ export default function MainNav() {
                 backgroundColor:router.asPath.split('/').includes('/') ? '#ddd6fe' : null,
             }}>
             <ul className={mainStyles.navSection}>
-                 <li className={mainStyles.responsiveMenuItems} >
-                    <Image width={48} height={38} src='/greixed logo (4).png' alt='greixed consult'/>
-                </li>
-
                 <li className={mainStyles.responsiveMenuItems}>
                      <Link href='/' className={mainStyles.brandName}>Greixed Consult</Link>
                 </li>
+
+                <li className={mainStyles.responsiveMenuItems} >
+                    <Image width={30} height={38} src='/greixed logo (4).png' alt='greixed consult'/>
+                </li>
+
             </ul>
 
           
