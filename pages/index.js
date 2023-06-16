@@ -28,15 +28,7 @@ export default function Home() {
     <main className={styles.container} style={{height:`${screenHeight}px`}}>
      <div className={styles.image}>
      <div className='flex justify-center items-center gap-5'>
-          <div>
-            <Image className='pb-[5px] rounded-[10px] absolute ' width={800} height={500} src='/reading.png' alt='#'/>
-            <h1 className='w-[675px] h-[130px] top-80 bg-gradient-to-r from-yellow-600 to-blue-700/50
-             relative rounded-[10px] text-white text-2xl px-3'
-             >Discover an Intrestingly Easy and Reliable way to get your Abroad study dreams come true.<Link href='/readMore' className={styles.button}>Read More</Link></h1>
-            
-            <p className='pl-[39px] text-[28px] font-bold font-reading text-black'></p>
-            <p className='text-[18px] font-thin font-reading text-blavk text-center block'></p>
-          </div>
+        
       </div>
      </div>
       <div className={styles.body}>
