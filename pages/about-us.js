@@ -44,7 +44,7 @@ export default function AboutUs() {
        
   )}
   const styles={
-    container:'h-screen',
+    container:'',
     body:'',
     allText:'text-2xl leading-loose',
     heading:'mt-10 text-5xl font-bold flex justify-center',
