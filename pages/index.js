@@ -21,13 +21,15 @@ export default function Home() {
     </Head>
     <main className={styles.container}>
      <div className={styles.image}>
-     <div className='flex justify-center items-center gap-5'>
+     <div className='flex justify-center items-center gap-5 '>
+      <Image height={950} width={900} src='/reading.png' alt='reading'/>
         
+
       </div>
      </div>
       <div className={styles.body}>
             <ul className={styles.header}>
-                <h1 className='lg:mt-20'>Studying abroad is made easy</h1>
+                <h1 className='lg:mt-20 sm/md:mt-20'>Studying abroad is made easy</h1>
                 <p className={styles.type}>With much teaching from our tutors,
                 IELTS TOFEFL and many more are much easier to pass.
                 From the comfort of your home, we teach you various topics needed 
@@ -63,9 +65,9 @@ export default function Home() {
 
   const styles = {
    container:'lg:px-0 sm:px-5 text-center',
-   image:'',
+   image:'bg-gradient-to-r from-yellow-300 to-green-500/50 ',
    button:' h-[40px] w-[170px] flex flex-col text border bg-blue-800 lg: px-3 mt-3 rounded-lg text-center text-white',
-   body:'flex flex-col justify-center  lg:text-right  sm:text-center mt-96 text-bold text-6xl text-yellow-500 ',
+   body:'flex flex-col justify-center  lg:text-right  md:text-center md/sm:mt-5 text-bold text-6xl text-yellow-500 ',
    type:'text-2xl  text-black mt-5 lg:text-right sm:text-center',
    texts:'text-2xl leading-relaxed text-black mt-5 lg:text-justify sm:text-center',
    topic:' mt-24 lg:text-justify sm:text-center',

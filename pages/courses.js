@@ -136,5 +136,5 @@ export default function Home() {
       container:'px-3',
       templates:'mt-20 flex flex-wrap gap-4 lg:flex-row sm:flex-wrap  order-2',
       Text:'text-6xl mt-5 text-left',
-      explain:'text-2xl px-3',
+      explain:'text-2xl px-3 mt-10 mb-5',
     }
