@@ -18,7 +18,11 @@ export default function termsAndConditions() {
         <link rel="icon" href="/greixed logo (4).png"/>
     </Head>
     <main className={styles.container}>
-     meeeettt meet
+     <div className={styles.body}>
+      <p>Greixed Consult is made to provide adequate learning programs to every student who wants to learn, pass
+        exams and get schorlaships which are valid
+      </p>
+     </div>
   
     </main>
     </>
@@ -26,5 +30,6 @@ export default function termsAndConditions() {
   )}
 
   const styles={
-    container:'h-screen',
+    container:'',
+    body:'text-1xl justify-end',
   }

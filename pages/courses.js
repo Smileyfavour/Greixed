@@ -63,7 +63,7 @@ export default function Home() {
             </Card>
             <Card sx={{ maxWidth: 345 }}>
             <CardMedia
-              sx={{ height: 140 }}
+              sx={{ height: 150 }}
               image="/TOEFL.png"
             />
              <CardContent>
@@ -104,9 +104,9 @@ export default function Home() {
               </Typography>
             </CardContent>
             </Card>
-            <Card sx={{ maxWidth: 345 }}>
+            <Card sx={{ maxWidth: 500 }}>
             <CardMedia
-              sx={{ height: 140 }}
+              sx={{ height: 240 }}
               image="/sat.png"
             />
               <CardContent>
