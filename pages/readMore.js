@@ -86,7 +86,7 @@ export default function readMore() {
               <p className={styles.texts}>To apply for the obtainable valid schorlaship application, click the link Below</p>
         </div>
         <div className={styles.linkButton}>
-          <Link className={styles.link}  href='https://wa.me/+2348147323426'>Apply Now</Link>
+          <Link className={styles.link}  href='https://wa.me/+2347019860086'>Apply Now</Link>
       </div>
         </div>
     </main>
