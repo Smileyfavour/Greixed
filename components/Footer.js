@@ -20,10 +20,10 @@ export default function Footer() {
                     <Link href='https://www.facebook.com/profile.php?id=100089064499317'><ImFacebook2 className={footerStyles.icon}/></Link>
                 </li>
                 <li>
-                    <Link href='#'><BsInstagram className={footerStyles.icon}/></Link>
+                    <Link href='https://instagram.com/greix.ed_consult?igshid=MzNlNGNkZWQ4Mg=='><BsInstagram className={footerStyles.icon}/></Link>
                 </li>
                 <li>
-                    <Link href='https://wa.me/+2349121366885'><BsWhatsapp className={footerStyles.icon}/></Link>
+                    <Link href='https://wa.me/+2347019860086'><BsWhatsapp className={footerStyles.icon}/></Link>
                 </li>
             </ul>
 
