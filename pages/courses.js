@@ -120,11 +120,9 @@ export default function Home() {
             </Card>
         </div>
           <div className={styles.explain}>
-          <p>In Nigeria today,the exams needed to gain admission or to be qualified for
-             the university are WAEC,NECO,GCE,NABTEB and most especially JAMB but
-            the major exams are WAEC,NECO and JAMB.
-            You need these 3 exams to be able to be qualified to enter the university.
-            That is why we established this company to help students pass these exams in flying colours.
+          <p>In Nigeria today,the exams needed to gain admission or to be qualified for higher institution is 
+            JAMB,WAEC,NECO and other exams like the GCE,NABTEB and many more..
+            That is why we established this teaching and school schemes to help students pass these exams in flying colours.
             </p>
           </div>
       </main>
@@ -134,7 +132,7 @@ export default function Home() {
 
     const styles={
       container:'px-3',
-      templates:'mt-20 flex flex-wrap gap-4 lg:flex-row sm:flex-wrap  order-2',
+      templates:'mt-20 flex flex-wrap gap-4 lg:flex-row sm:flex-wrap order-2 space-x-5',
       Text:'text-6xl mt-5 text-left',
-      explain:'text-2xl px-3 mt-10 mb-5',
+      explain:'text-3xl px-3 mt-10 mb-5',
     }
