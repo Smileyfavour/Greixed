@@ -117,5 +117,5 @@ You agree that the original English text shall prevail in the case of a dispute.
 
   const styles={
     container:'',
-    body:'text-1xl justify-end',
+    body:'text-1xl justify-end px-5 mt-5 mb-5',
   }
