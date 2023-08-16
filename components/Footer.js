@@ -32,7 +32,7 @@ export default function Footer() {
                     <Link href='/termsandConditions' className={footerStyles.legalText}>Terms and conditions</Link>
                 </li>
                 <li>
-                    <Link href='/termsandConditions' className={footerStyles.legalText}>Privacy Policy</Link>
+                    <Link href='/privacypolicy' className={footerStyles.legalText}>Privacy Policy</Link>
                 </li>
             
                 <li>
