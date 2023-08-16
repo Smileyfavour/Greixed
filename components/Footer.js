@@ -31,6 +31,9 @@ export default function Footer() {
                 <li>
                     <Link href='/termsandConditions' className={footerStyles.legalText}>Terms and conditions</Link>
                 </li>
+                <li>
+                    <Link href='/termsandConditions' className={footerStyles.legalText}>Privacy Policy</Link>
+                </li>
             
                 <li>
                     <Link href='/about-us' className={footerStyles.legalText}>About Us</Link>
