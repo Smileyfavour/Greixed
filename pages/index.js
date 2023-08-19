@@ -40,7 +40,7 @@ export default function Home() {
                 simple and easy way for you to understand. Our tutors also try their 
                 very best to teach in an understanding manner and over the years,
                 we have lost count of many who performed excellently in WAEC, NECO and JAMB.
-                Below are some of our students who passed the exams in flying colours.</p>
+                Our great and outstanding teachers are educationally certified and are satisfactory.</p>
                 <h3 className={styles.topics}>How to Apply</h3>
                 <p className={styles.type}>Make a determination in your mind on what exam course you would love to be taught about.
                 You can scale through the related exams <Link href='/courses'><u>courses we teach</u></Link> ,
